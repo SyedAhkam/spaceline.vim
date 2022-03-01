@@ -6,16 +6,15 @@
 " =============================================================================
 function! spaceline#colorscheme#tokyonight#tokyonight()
   let s:slc={}
-  let s:slc.white     = ['d8dee9', 255]
-  let s:slc.gray      = ['3b4252', 237]
-  let s:slc.black     = ['2e3440', 232]
-  let s:slc.yellow    = ['ebcb8b', 214]
-  let s:slc.purple    = ['b48ead', 251]
-  let s:slc.orange    = ['d08770', 208]
-  let s:slc.red       = ['bf616a', 203]
-  let s:slc.blue      = ['81a1c1', 32]
-  let s:slc.cyan      = ['88c0d0', 225]
-  let s:slc.darknavy  = []
+  let s:slc.white     = ['#c0caf5', 255]
+  let s:slc.gray      = ['#cfc9c2', 237]
+  let s:slc.black     = ['#1a1b26', 232]
+  let s:slc.yellow    = ['#e0af68', 214]
+  let s:slc.purple    = ['#bb9af7', 251]
+  let s:slc.orange    = ['#ff9e64', 208]
+  let s:slc.red       = ['#f7768e', 203]
+  let s:slc.blue      = ['#2ac3de', 32]
+  
 
   call spaceline#colors#match_background_color(s:slc.darknavy)
 
